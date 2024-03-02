@@ -1,0 +1,430 @@
+.taxcontainer1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.taxcontainer2{
+    width: 70%;
+    height: 500px;
+   
+}
+.tax1{
+   width: 100%;
+   height: 60px;
+   display: flex;
+   justify-content: center; 
+   
+}
+.tax11{
+    width: 33%;
+    height: 10px;
+    background-color: #FFBc49;
+    transform: skew(30deg);
+    padding: 0px 0px 29px 0px;
+}
+.tax11 p{
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    transform: skew(-30deg);
+    text-align: center;
+    height: 10px;
+   
+    font-family: Montserrat;
+}
+.tax2{
+    width: 100%;
+    height: 80px;
+   
+    font-weight: 700;
+    font-size: 30px;
+    color: #34B628
+}
+.tax3{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+.custom-card-title{
+width: 100%;
+height: 20px;
+
+
+}
+
+.TAX1{
+    width: 100%;
+   height: 280px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.TAX{
+    width: 100%;
+    height: 280px;  
+}
+.TITLE{
+    width: 100%;
+}
+.IMAGE {
+    width: 100%;
+}
+.iMAGE img{
+    width: 100%;
+}
+.taxcard3{
+    width: 100%;
+    height: 250px;
+}
+.taxcard3 img{
+    width: 100%;
+    height: 180px;
+}
+.carddescription{
+    width: 100%;
+    height: 70px;
+    font-size: 16px;
+    word-spacing: 5px;
+ text-align: left;
+  font-family: Montserrat;
+  padding: 20px 0px 0px 0px;
+  line-height: 0.9;
+ 
+}
+.cardescription{
+    width: 100%;
+   display: flex;
+   justify-content: left;
+   
+}
+@media screen and (min-width: 900px){
+.TAXCONTAINER1{
+    display: none;
+}
+.container-tax1{
+    display: none;
+}
+}
+@media (min-width: 700px) and (max-width:900px) {
+    .container-tax1{
+        display: none;
+    }
+    .taxcontainer1{
+        display: none;
+    }
+    .TAXCONTAINER1{
+        width: 100%;
+        height: 850px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .TAXCONTAINER2{
+        width: 90%;
+        height: 750px;
+    }
+    .TAX1{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center; 
+        
+     }
+     .TAX11{
+         width: 39%;
+         height: 10px;
+         background-color: #FFBc49;
+         transform: skew(30deg);
+         padding: 0px 0px 20px 0px;
+     }
+     .TAX11 p{
+        width: 100%;
+        font-size: 11px;
+        font-weight: bold;
+        transform: skew(-30deg);
+        text-align: center;
+        height: 10px;
+       
+        font-family: Montserrat;
+    }
+    .TAX2{
+        width: 100%;
+        height: 50px;
+      
+        font-weight: 700;
+        font-size: 25px;
+        color: #34B628
+    }
+    .TAX3{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      
+    }
+    .TAXTHREE{
+        width: 100%;
+        height: 305px;
+       display: flex;
+       justify-content: space-between;
+       gap: 20px;
+      
+    }
+    .TAXFOUR{
+        width: 100%;
+        height: 305px;
+       display: flex;
+       justify-content: space-between;
+       gap: 20px;
+       
+    }
+ }
+ @media (min-width: 522px) and (max-width:700px) {
+    .container-tax1{
+        display: none;
+    }
+    .taxcontainer1{
+        display: none;
+    }
+    .TAXCONTAINER1{
+        width: 100%;
+        height: 720px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .TAXCONTAINER2{
+        width: 90%;
+        height: 720px;
+    }
+    .TAX1{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center; 
+        
+     }
+     .TAX11{
+         width: 39%;
+         height: 10px;
+         background-color: #FFBc49;
+         transform: skew(30deg);
+         padding: 0px 0px 20px 0px;
+     }
+     .TAX11 p{
+        width: 100%;
+        font-size: 9px;
+        font-weight: bold;
+        transform: skew(-30deg);
+        text-align: center;
+        height: 10px;
+       
+        font-family: Montserrat;
+    }
+    .TAX2{
+        width: 100%;
+        height: 50px;
+       background-color: beige;
+        font-weight: 700;
+        font-size: 23px;
+        color: #34B628
+    }
+    .TAX3{
+        width: 100%;
+        height: 570px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      
+    }
+    .TAXTHREE{
+        width: 100%;
+        height: 280px;
+       display: flex;
+       justify-content: space-between;
+       gap: 20px;
+      
+    }
+    .TAXFOUR{
+        width: 100%;
+        height: 280px;
+       display: flex;
+       justify-content: space-between;
+       gap: 20px;
+       
+    }}
+ @media (min-width: 400px) and (max-width:522px) {
+.taxcontainer1{
+    display: none;
+}
+.TAXCONTAINER1{
+    display: none;
+}
+.container-tax1{
+   width: 100%; 
+   height: 1350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container-tax2{
+    width: 90%;
+    height: 1200px;
+}
+ .TAx1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+ }
+  .TAx11{
+    width: 79%;
+    height: 10px;
+    background-color: #FFBc49;
+    transform: skew(30deg);
+    padding: 0px 0px 25px 0px; 
+  } 
+.TAx11 p{
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    transform: skew(-30deg);
+    text-align: center;
+    height: 10px;
+   word-spacing: 4px;
+    font-family: Montserrat;
+}
+.TAx2{
+    width: 100%;
+    height: 80px;
+   
+    font-weight: 700;
+    font-size: 30px;
+    color: #34B628
+}
+.TAx3{
+    width: 100%;
+        height: 870px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      
+}
+.TAxthree{
+    width: 100%;
+        height: 250px;
+       
+}
+.IMAGEmob {
+    width: 100%;
+    height: 200px;
+}
+.mobIMAGE{
+    width: 100%;
+    height: 200PX;
+}
+.TITlE{
+    width: 100%;
+}
+.carddescriptionmob{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+  
+text-align: left;
+  font-family: Montserrat;
+ 
+ 
+}
+} 
+@media screen and (max-width: 400px){ 
+    .taxcontainer1{
+        display: none;
+    }
+    .TAXCONTAINER1{
+        display: none;
+    }
+    .container-tax1{
+       width: 100%; 
+       height: 1300px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: bisque;
+    }
+    .container-tax2{
+        width: 90%;
+        height: 1300px;
+    }
+     .TAx1{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+     }
+      .TAx11{
+        width: 79%;
+        height: 10px;
+        background-color: #FFBc49;
+        transform: skew(30deg);
+        padding: 0px 0px 25px 0px; 
+      } 
+    .TAx11 p{
+        width: 100%;
+        font-size: 12px;
+        font-weight: bold;
+        transform: skew(-30deg);
+        text-align: center;
+        height: 10px;
+       word-spacing: 4px;
+        font-family: Montserrat;
+    }
+    .TAx2{
+        width: 100%;
+        height: 80px;
+       
+        font-weight: 700;
+        font-size: 30px;
+        color: #34B628
+    }
+    .TAx3{
+        width: 100%;
+            height: 870px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+          
+    }
+    .TAxthree{
+        width: 100%;
+            height: 250px;
+           
+    }
+    .IMAGEmob {
+        width: 100%;
+        height: 200px;
+    }
+    .mobIMAGE{
+        width: 100%;
+        height: 200PX;
+    }
+    .TITlE{
+        width: 100%;
+        
+    }
+    .carddescriptionmob{
+        width: 100%;
+        height: 70px;
+        font-size: 14px;
+       text-align: left;
+      font-family: Montserrat;
+     
+     
+    }
+}

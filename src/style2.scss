@@ -1,0 +1,693 @@
+.header {
+    width: 100vw;
+    height: Hug(96px);
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    padding: 0 20px; /* Add padding as needed */
+  position: absolute;
+  top: 0;
+    @media screen and (min-width: 320px)  and (max-width: 850px){
+      height: 76px;
+      width: 100vw;
+    }
+  }
+  
+  .header1{
+    width: Fixed(1,780px);
+      height: Hug(49.14px);
+      top: 20px;
+      left: 70.18px;
+      margin-top: 20px;
+      right: 0px;
+      display: flex;
+      justify-content: space-around;
+  }
+  .header2{
+    padding-right: 160px;
+    margin-left: 60px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .navbarr{
+  
+  }
+  .logo{
+    width: Fixed(100px);
+    height: Hug(49.14px);
+  }
+  .navbar-right{
+    width: Fixed(896.54px);
+    height: Hug(34px);
+    gap: 4px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  
+  
+  .button {
+    width: Fixed(268px); /* Adjust width as needed */
+    height: Hug(32px);
+    border-radius: 90px;
+    border: 1px;
+    gap: 8px;
+    margin-left: 200px;
+    padding-top: 5px;
+  }
+  
+  .buttonn {
+    width: Fixed(15.78px);
+    height: Hug(15.78px);
+    top: 7.61px;
+    left: 7.61px;
+    border: 1.5px solid white;
+    padding-left: 200px;
+    border-radius: 90px;
+  }
+  .home{
+    
+    padding: 5px 24.64px 5px 24.83px;
+    border-radius: 0px;
+    margin-left: -20px;
+    }
+    
+    .nav-menu{
+      display: flex;
+      font-size: small;
+      color: white;
+    }
+    .home:active{
+      border-bottom: 2px solid red;
+    }
+    .about:active{
+      border-bottom: 2px solid red;
+    }
+    .products:active{
+      border-bottom: 2px solid red;
+    }
+    .contact:active{
+      border-bottom: 2px solid red;
+    }
+  
+  
+    .about{
+      width: Fill(102.33px);
+    height: Hug(34px);
+    padding: 5px 24.57px 5px 24.76px;
+    border-radius: 0px;
+    margin-left: -20px;
+    }
+    .contact{
+      width: Fill(143.13px);
+    height: Hug(34px);
+    padding: 5px 24.47px 5px 24.67px;
+    border-radius: 0px;
+    margin-left: -30px;
+    
+    }
+    .products{
+    width: Fill(132px);
+    height: Hug(34px);
+    padding: 5px 25px 5px 25px;
+    border-radius: 0px;
+    margin-left: -30px;
+  } 
+    .cart{
+      width: Fill(131.1px);
+      height: Hug(32px);
+      padding: 0px 0px 0px 40px;
+      gap: 12px;
+      display: flex;
+      justify-content: space-between;
+    margin-left: -10px;
+    }
+    .carts{
+      width: Fill(41.1px);
+    height: Hug(31.1px);
+    border-radius: 22.75px;
+    padding-top: 5px;
+    margin-left: -10px;
+    }
+    .cart-count{
+      font-family: Montserrat;
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 2.6px;
+      letter-spacing: 0em;
+      text-align: left;
+      padding-top: 13px;
+      }
+      #mobile{
+        display: none;
+      }
+  
+
+
+
+      .header {
+        width: 100vw;
+        height: Hug(96px);
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        padding: 0 20px; /* Add padding as needed */
+      
+        @media screen and (min-width: 320px)  and (max-width: 768px){
+          height: Hug(76px);
+          width: 100%;
+        }
+        
+      .header1{
+        width: Fixed(1,780px);
+          height: Hug(49.14px);
+          top: 20px;
+          left: 70.18px;
+          margin-top: 20px;
+          right: 0px;
+          display: flex;
+          justify-content: space-around;
+          
+      }
+      .header2{
+        padding-right: 20px;
+        margin-left: 20px;
+         
+         
+      }
+      .navbar{
+        
+      }
+      .navbarr{
+        
+      }
+      
+      .logo{
+        width: Fixed(100px);
+        height: Hug(49.14px);
+      }
+      .navbar-right{
+        width: Fixed(896.54px);
+        height: Hug(34px);
+        gap: 4px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        
+      }
+      .button {
+        width: Fixed(268px); 
+        height: Hug(32px);
+        border-radius: 90px;
+        border: 1px;
+        gap: 8px;
+        margin-left: 200px;
+        padding-top: 5px;
+      }
+      
+      .buttonn {
+        width: Fixed(15.78px);
+        height: Hug(15.78px);
+        top: 7.61px;
+        left: 7.61px;
+        border: 1.5px solid white;
+        padding-left: 200px;
+        border-radius: 90px;
+      }
+      .home{
+        
+        padding: 5px 24.64px 5px 24.83px;
+        border-radius: 0px;
+        margin-left: -20px;
+        }
+        
+        .nav-menu{
+          display: flex;
+          font-size: small;
+          color: white;
+        }
+        .home:active{
+          border-bottom: 2px solid red;
+        }
+        .about:active{
+          border-bottom: 2px solid red;
+        }
+        .products:active{
+          border-bottom: 2px solid red;
+        }
+        .contact:active{
+          border-bottom: 2px solid red;
+        }
+      
+      
+        .about{
+          width: Fill(102.33px);
+        height: Hug(34px);
+        padding: 5px 24.57px 5px 24.76px;
+        border-radius: 0px;
+        margin-left: -20px;
+        }
+        .contact{
+          width: Fill(143.13px);
+        height: Hug(34px);
+        padding: 5px 24.47px 5px 24.67px;
+        border-radius: 0px;
+        margin-left: -30px;
+        
+        }
+        .products{
+        width: Fill(132px);
+        height: Hug(34px);
+        padding: 5px 25px 5px 25px;
+        border-radius: 0px;
+        margin-left: -30px;
+      } 
+        .cart{
+          width: Fill(131.1px);
+          height: Hug(32px);
+          padding: 0px 0px 0px 40px;
+          gap: 12px;
+          display: flex;
+          justify-content: space-between;
+        margin-left: -10px;
+        }
+        .carts{
+          width: Fill(41.1px);
+        height: Hug(31.1px);
+        border-radius: 22.75px;
+        padding-top: 5px;
+        margin-left: -10px;
+        }
+      .cart-count{
+          font-family: Montserrat;
+          font-size: 17px;
+          font-weight: 600;
+          line-height: 2.6px;
+          letter-spacing: 0em;
+          text-align: left;
+          padding-top: 13px;
+          }
+      #mobile{
+            display: none;
+          }
+      }
+    
+      
+
+
+
+
+
+
+
+      c
+      .header {
+        width: 100vw;
+        height: Hug(96px);
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        padding: 0 20px; /* Add padding as needed */
+      
+        @media screen and (min-width: 320px) and (max-width: 1,120px) {
+          height: Hug(76px);
+          width: 100vw;
+           }
+           .toggle{
+            display: none;
+           }
+      }
+      
+      
+      .header1 {
+        width: Fixed(1,780px);
+        height: Hug(49.14px);
+        top: 20px;
+        left: 70.18px;
+        margin-top: 20px;
+        right: 0px;
+        display: flex;
+        justify-content: space-between;
+        background-color: gray;
+        padding: 0 20px; /* Adjust padding as needed */
+      
+        
+      }
+      
+      .header2 {
+        padding-right: 0;
+        padding-left: 20px; /* Adjust padding as needed */
+      }
+      
+      .logo {
+        width: Fixed(100px);
+        height: Hug(49.14px);
+      }
+      
+      .navbar1 {
+        padding-top: 10px;
+      }
+      
+      .navbar-right {
+        width: Fixed(896.54px);
+        height: Hug(34px);
+        gap: 4px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+      }
+      
+      .button {
+        width: Fixed(268px);
+        height: Hug(32px);
+        border-radius: 90px;
+        border: 1px;
+        gap: 8px;
+        padding-left: 500px;
+      }
+      
+      .buttonn {
+        width: Fixed(15.78px);
+        height: Hug(15.78px);
+        top: 7.61px;
+        left: 7.61px;
+        border: 1.5px solid white;
+        padding-left: 180px;
+        border-radius: 90px;
+        margin-top: -100px;
+      }
+      
+      .home {
+       
+        padding: 5px 24.64px 5px 24.83px;
+        border-radius: 0px;
+        margin-left: 5px;
+      }
+      .about{
+        width: Fill(102.33px);
+      height: Hug(34px);
+      padding: 5px 24.57px 5px 24.76px;
+      border-radius: 0px;
+      margin-left: -20px;
+      }
+      .contact{
+        width: Fill(143.13px);
+      height: Hug(34px);
+      padding: 5px 24.47px 5px 24.67px;
+      border-radius: 0px;
+      margin-left: -20px;
+      
+      }
+      .nav-menu {
+        display: flex;
+        font-size: small;
+        color: white;
+      }
+      
+      .nav {
+        margin-top: -50px;
+      }
+      
+      .home:active,
+      .about:active,
+      .products:active,
+      .contact:active {
+        border-bottom: 2px solid red;
+      }
+      
+      .about,
+      .contact {
+        white-space: nowrap;
+      }
+      
+      .products {
+        width: Fixed(132px);
+        height: Hug(34px);
+        padding: 5px 25px 5px 25px;
+        border-radius: 0px;
+        margin-left: -20px;
+      }
+      
+      .cart {
+        width: Fixed(131.1px);
+        height: Hug(32px);
+        padding: 0px 0px 0px 40px;
+        gap: 12px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -20px;
+      }
+      
+      .carts {
+        width: Fixed(41.1px);
+        height: Hug(31.1px);
+        border-radius: 22.75px;
+        padding-top: 5px;
+        margin-left: -10px;
+      }
+      
+      .cart-count {
+        font-family: Montserrat;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 2.6px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-top: 13px;
+      }
+      
+      #mobile {
+        display: none;
+      }
+      @media screen and (min-width: 320px) and (max-width: 850px) {
+      .toggle{
+          display: none;
+        }
+      @media screen and (min-width: 850px) and (max-width: 1120px) {
+          .toggle{
+            display: none;
+          } 
+      }}
+          
+
+      .header {
+        width: 100vw;
+        height: Hug(96px);
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        padding: 0 20px; /* Add padding as needed */
+      
+        @media screen and (min-width: 320px) and (max-width: 768px) {
+          height: Hug(76px);
+          width: 100vw;
+          
+        }
+        
+      }
+      .header {
+        width: 100vw;
+        height: Hug(96px);
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        padding: 0 20px;}
+      .header1 {
+        width: Fixed(1,780px);
+        height: Hug(49.14px);
+        top: 20px;
+        left: 70.18px;
+        margin-top: 20px;
+        right: 0px;
+        display: flex;
+        justify-content: space-between;
+        
+        padding: 0 20px; /* Adjust padding as needed */
+      
+        @media screen and (min-width: 768px) {
+          width: Fixed(780px);
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+      
+      .header2 {
+        padding-right: 0;
+        padding-left: 20px; /* Adjust padding as needed */
+      }
+      
+      .logo {
+        width: Fixed(100px);
+        height: Hug(49.14px);
+      }
+      
+      .navbar1 {
+        padding-top: 10px;
+      }
+      
+      .navbar-right {
+        width: Fixed(896.54px);
+        height: Hug(34px);
+        gap: 4px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+      }
+      
+      .button {
+        width: Fixed(268px);
+        height: Hug(32px);
+        border-radius: 90px;
+        border: 1px;
+        gap: 8px;
+        padding-left: 500px;
+      }
+      
+      .buttonn {
+        width: Fixed(15.78px);
+        height: Hug(15.78px);
+        top: 7.61px;
+        left: 7.61px;
+        border: 1.5px solid white;
+        padding-left: 180px;
+        border-radius: 90px;
+        margin-top: -100px;
+      }
+      
+      .home {
+       
+        padding: 5px 24.64px 5px 24.83px;
+        border-radius: 0px;
+        margin-left: 5px;
+      }
+      .about{
+        width: Fill(102.33px);
+      height: Hug(34px);
+      padding: 5px 24.57px 5px 24.76px;
+      border-radius: 0px;
+      margin-left: -20px;
+      }
+      .contact{
+        width: Fill(143.13px);
+      height: Hug(34px);
+      padding: 5px 24.47px 5px 24.67px;
+      border-radius: 0px;
+      margin-left: -20px;
+      
+      }
+      .nav-menu {
+        display: flex;
+        font-size: small;
+        color: white;
+      }
+      
+      .nav {
+        margin-top: -50px;
+      }
+      
+      .home:active,
+      .about:active,
+      .products:active,
+      .contact:active {
+        border-bottom: 2px solid red;
+      }
+      
+      .about,
+      .contact {
+        white-space: nowrap;
+      }
+      
+      .products {
+        width: Fixed(132px);
+        height: Hug(34px);
+        padding: 5px 25px 5px 25px;
+        border-radius: 0px;
+        margin-left: -20px;
+      }
+      
+      .cart {
+        width: Fixed(131.1px);
+        height: Hug(32px);
+        padding: 0px 0px 0px 40px;
+        gap: 12px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -20px;
+      }
+      
+      .carts {
+        width: Fixed(41.1px);
+        height: Hug(31.1px);
+        border-radius: 22.75px;
+        padding-top: 5px;
+        margin-left: -10px;
+      }
+      
+      .cart-count {
+        font-family: Montserrat;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 2.6px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-top: 13px;
+      }
+      
+      #mobile {
+        display: none;
+      }
+      @media screen and (min-width: 800px) and (max-width: 1780px) {
+        .toggle{
+          display: none;
+        }
+        
+       @media screen and (min-width: 0px) and (max-width: 300px) {
+          .toggle{
+            display: block;
+         }
+         
+        }
+         @media screen and (min-width: 300px) and (max-width: 799px) {
+             
+        
+      }}
+         
+      
+      @media screen and (max-width: 900px) {
+        .headerBox2 {
+          display: none;
+        }
+        .simenu{
+            display: block;
+        }
+    }}
+    @media (min-width: 0px) and (max-width: 900px) {
+        .simenu {
+            .drawer {
+                color: white;
+                padding-left: 200px;
+            }
+        }
+    }
+    
+    <Button type="text" ghost onClick={ MyForm}>Get Quote</Button>     

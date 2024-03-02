@@ -1,0 +1,204 @@
+.Navbarcontainer{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    display: flex;
+   top: 0;
+   
+}
+.Button{
+    width: 100%;
+    height: 80px;
+  flex: 2;
+
+}
+.button img{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+.button1{
+    width: 100%;
+    padding: 0px 5px 0px 5px;
+}
+.Menu{
+    width: 100%;
+    flex: 5;
+    height: 80px;
+   
+    
+}
+.imgg {
+    width: 100%;
+
+}
+.hom,.servic,.pricing,.sin,.reg,.cont{
+   cursor: pointer;
+}
+.Menu1{
+    width: 100%;
+   color: #e1670fe7 ;
+}
+.Socialmedia{
+    width: 100%;
+    flex: 2;
+    height: 80px;
+    
+}
+
+.button .button1{
+   width: 100%;
+   justify-content: center;
+   
+}
+.button .button1 :hover{
+ 
+ border-style: hidden;
+}
+.button .button1:active{
+    border-style: hidden;
+   }
+.Button button :hover,
+.Button button :active {
+     color: black; 
+   }
+.mailicon{
+    width: 100%;
+    background-color: #FFBC49;
+    color: white;
+}
+.Menu1{
+    width: 100%;
+   padding: 22px 0px 22px 0px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    font-style: oblique;
+}
+
+.socialmedia{
+    width: 100%;
+   justify-content: center;
+    display: flex;
+    gap : 15px;
+    padding: 20px 0px 20px 0px;
+   
+}
+.socialmedia1{
+   height: 80px;
+}
+.en{
+   width: 100%;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+}
+
+.simenu{
+@media screen and (min-width: 900px){
+   display: none;    
+        }
+}
+/*.Menu{
+    @media screen and (max-width: 900px) { 
+        display: none;
+}}*/
+@media screen and (max-width: 900px) { 
+    .Socialmedia{
+        display: none;
+    }
+    .Menu{
+        display: none;
+    }
+    .Button{
+       flex: 2;
+    }
+    .simenu{
+        width: 100% ;
+        flex: 4;
+        color: white;
+       padding: 20px 0px 0px 0px;
+     display:  flex;
+     justify-content: flex-end;
+     margin-right: 20px;
+}}
+.menulist{
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    line-height: 3;
+    color: rgb(135, 133, 133);
+    font-weight: 500;
+}
+.socialmedias{
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+@media screen and (min-width: 522px) { 
+    .mobbile{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 522px) {
+.Button{
+    display: none;
+}
+.simenu{
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+}
+}
+/* Add the following CSS adjustments */
+
+/* Add the following CSS adjustments for better responsiveness */
+
+@media screen and (max-width: 400px) {
+    .Navbarcontainer{
+        width: 100%;
+    }  
+  }
+  @media screen and (max-width: 900px) { 
+    .Navbarcontainer {
+        position: relative;
+    }
+
+   
+}
+
+
+
+
+
+.homescreen-box1{
+    width: 100%;
+    height: 600px;
+   
+    display: flex;
+    position: fixed;
+    top: 0;
+}
+.homescreen-box2{
+    width: 100%;
+    height: 500px;
+   padding-top: 120px;
+    position: relative;
+}
+.homescreen-box3{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    
+  
+}
+.homescreen-box3{
+    width: 100%;
+height: 500px;
+
+}
+.homeScreen-carousalImg{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  color: #e1670fe7;
+  
